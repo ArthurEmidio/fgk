@@ -4,13 +4,13 @@
 This is a C implementation of the FGK (Faller-Gallager-Knuth) algorithm.
 
 ## Compilation
-gcc -Wall fgk.c -o fgk
+`gcc -Wall fgk.c -o fgk`
 
 ## Running
 The binary can be executed in one of the following ways:
 
-1. ./fgk input_file output_file -c (to encode)    
-2. ./fgk input_file output_file -d (to decode)
+1. `./fgk input_file output_file -c` (to encode)    
+2. `./fgk input_file output_file -d` (to decode)
   
 ## Output
 The program will write the encoded/decoded data into the output file.
